@@ -10,7 +10,7 @@ const Login = () => {
             <input type="text" className="dark-input" />
             <label htmlFor="pass">Password :</label>
             <input type="password" className="dark-input" />
-            <a href=""><input type="submit" value="Submit" className="dark-submit" onClick={}/></a>
+            <a href=""><input type="submit" value="Submit" className="dark-submit"/></a>
             <p>Don't have an account? <a href="/register" className="dark-link">Register</a>.</p>
             <p id="authResult">{}.</p>
           </form>
